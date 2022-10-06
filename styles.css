@@ -1,0 +1,91 @@
+.center{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  width:150px;
+}
+body{
+  background color: position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+
+
+background: linear-gradient(180deg, #04CE00 0%, #008585 36.98%);}
+
+main{
+display:block;
+margin:auto;
+width:500px
+}
+
+/*image junklet*/
+img{ float:right;}
+
+/*this section is the first line*/
+h1{
+  font-family:'Freckle Face';
+  font-size:30px;
+  color:white;
+  text-align: center;
+  box-sizing: border-box;
+
+  position:relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+
+  background: #411688;
+  border-radius: 14px;}
+
+  /* this section is 'Halloween to stick it to corp. */
+  h4{
+    font-family:'Freckle Face';
+    font-size:30px;
+    color:white;
+    text-align: center;
+
+    box-sizing: border-box;
+
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+
+  background: #411688;
+  border-radius: 15px;}
+
+/*this stuff is for links!*/
+a:link{
+color:white
+}
+a:visited{
+  color:lime;
+}
+
+
+/*this section is the first list of songs with the numbers*/
+  h3{
+    font-family: 'Baloo';
+    font-size:25px;
+    color:white;
+    text-align: center;
+    box-sizing: border-box;
+
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+
+  background: #6232B0;
+  border-radius: 40px;}
+
+    /*this section is the bottom list of songs*/
+  h2{
+    font-family:'Freckle Face';
+    font-size:30px;
+    color:white}

@@ -20,15 +20,38 @@ margin:auto;
 width:500px
 }
 
-/*image junklet*/
-img{ float:right;}
+/*image*/
+
+
+img{
+height:300px;
+width:300px;
+align-self:left;}
+
+
+.web {
+  height:200px;
+  width:200px;
+  position: relative;
+   top: -50px;
+   right: -400px;
+}
+
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100px;
+}
+
+}
+
 
 /*this section is the first line*/
 h1{
   font-family:'Freckle Face';
   font-size:30px;
   color:white;
-  text-align: center;
   box-sizing: border-box;
 
   position:relative;
@@ -45,7 +68,6 @@ h1{
     font-family:'Freckle Face';
     font-size:30px;
     color:white;
-    text-align: center;
 
     box-sizing: border-box;
 
@@ -72,8 +94,9 @@ a:visited{
     font-family: 'Baloo';
     font-size:25px;
     color:white;
-    text-align: center;
     box-sizing: border-box;
+
+
 
   position: relative;
   width: auto;
@@ -82,7 +105,7 @@ a:visited{
   top: auto;
 
   background: #6232B0;
-  border-radius: 40px;}
+  border-radius: 39px;}
 
     /*this section is the bottom list of songs*/
   h2{

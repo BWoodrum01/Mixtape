@@ -2,7 +2,6 @@
 
 }
 
-
 .center{
   display:block;
   margin-right:auto;
@@ -32,19 +31,18 @@ width:500px
 
 
 img{
-height:300px;
-width:300px;
-align-self:left;}
+
+width:600px;
+align:center;
+border-radius: 15px;}
 
 
 .web {
   height:200px;
   width:200px;
-  position: absolute;
-   top: -25px;
+  position: relative;
+   top: -50px;
    left:900px;
-   right:-900px;
-  position:
 }
 
 .string{
@@ -69,7 +67,7 @@ align-self:left;}
 /*this section is the first line*/
 h1{
   font-family:'Freckle Face';
-  font-size:100px;
+  font-size:60px;
   color:white;
   box-sizing: border-box;
 
@@ -86,7 +84,7 @@ h1{
   /* this section is 'Halloween to stick it to corp. */
   h4{
     font-family:'Freckle Face';
-    font-size:75px;
+    font-size:45px;
     color:white;
     text-align: center;
     margin:20px 20px 20px 20px;
@@ -120,7 +118,7 @@ ol{
 
   h3{
     font-family: 'Baloo';
-    font-size:50px;
+    font-size:30px;
     color:white;
     text-align: Left;
     box-sizing: border-box;
@@ -139,10 +137,10 @@ ol{
     /*this section is the bottom list of songs*/
   h2{
     font-family:'Freckle Face';
-    font-size:50px;
+    font-size:30px;
     color:white}
 
     p{ font-family:'Baloo';
     text-align:left;
-  font-size:40px;
+  font-size:20px;
   color:#411688;

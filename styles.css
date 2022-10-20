@@ -25,7 +25,9 @@ width:500px;
 
 
 /*image*/
-
+img{
+  max-width:100%;
+}
 
 .album{
 width:600px;

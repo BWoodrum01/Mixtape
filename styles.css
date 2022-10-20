@@ -27,7 +27,7 @@ width:500px;
 /*image*/
 
 
-img{
+.album{
 width:600px;
 align:center;
 border-radius: 15px;}
@@ -115,9 +115,9 @@ ol{
   line-height: 1.2;
   margin:20px 20px 20px 20px;}
 
-  h3{
+  .wrapper{
     font-family: 'Baloo';
-    font-size:30px;
+    font-size:40px;
     color:white;
     text-align: Left;
     box-sizing: border-box;
@@ -141,5 +141,5 @@ ol{
 
     p{ font-family:'Baloo';
     text-align:left;
-  font-size:20px;
+  font-size:30px;
   color:#411688;

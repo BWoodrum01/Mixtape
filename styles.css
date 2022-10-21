@@ -47,14 +47,14 @@ border-radius: 15px;}
   position: fixed;
   left:1023px;
   top:-50px;
-  height:500px;
+  height:900px;
   width:5px;
 }
 
 .spider {
   margin-right:0;
   position: fixed;
-  top: 700px;
+  top: 850px;
   left: 450px;
   right:0px;
   width: 150px;

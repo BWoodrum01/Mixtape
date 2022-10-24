@@ -1,28 +1,32 @@
-@media only screen and(min-width: 700px) {
 
+
+html{
+  scroll-behavior: smooth;
 }
-
-html{scroll-behavior: smooth;}
 
 .center{
   display:block;
   margin-right:auto;
   margin-left:auto;
   width:150px;
+  text-align: center;
 }
+
 body{
-  font-size: 16px;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-size: 18px;
   font-family:Arial,Helvetica,sans-serif;
   line-height: 1.2;
-
-background: linear-gradient(180deg, #04CE00 0%, #008585 36.98%);}
-
-main{
-display:block;
-margin:auto;
-width:500px;
+  background: linear-gradient(180deg, #04CE00 0%, #008585 36.98%);
 }
 
+main{
+  display:block;
+  margin:auto;
+  width:500px;
+}
 
 /*image*/
 img{
@@ -30,81 +34,70 @@ img{
 }
 
 .album{
-width:600px;
-align:center;
-border-radius: 15px;}
+  width:100%;
+  /* align:center; */
+  border-radius: 15px;
+}
 
 
 .web {
   height:200px;
   width:200px;
-  position: relative;
-   top: -50px;
-   left:900px;
+  position: fixed;
+  top: -28px;
+  right:0;
+  z-index: 1;
+  /* NOTE z-index will bring items to the front or back.
+  The default is 0 and to bring it forward,
+  choose a 1 or a larger number depending on
+  how many elements are on top of each other*/
 }
 
 .string{
   position: fixed;
-  left:1023px;
+  right:64px;
   top:-50px;
-  height:900px;
+  height:97vh;
   width:5px;
 }
 
 .spider {
   margin-right:0;
   position: fixed;
-  top: 850px;
-  left: 450px;
-  right:0px;
-  width: 150px;
-  height:150px
+  bottom: 20px;
+  right:20px;
+  height:120px
 }
 
 
 /*this section is the first line*/
 h1{
   font-family:'Freckle Face';
-  font-size:60px;
   color:white;
-  box-sizing: border-box;
-
-  position:relative;
   text-align: center;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: 15px;
-  margin-right: auto;
-  margin-left: auto;
-
-
   background: #411688;
-  border-radius: 15px;}
+  border-radius: 15px;
+  padding: 10px;
+}
 
   /* this section is 'Halloween to stick it to corp. */
-  h4{
-    font-family:'Freckle Face';
-    font-size:45px;
-    color:white;
-    text-align: center;
-    margin:20px 20px 20px 20px;
-
-    box-sizing: border-box;
-
-  position: relative;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-
+h2{
+  font-family:'Freckle Face';
+  color:white;
+  text-align: center;
   background: #411688;
-  border-radius: 15px;}
+  border-radius: 15px;
+  padding:10px;
+}
+
 
 /*this stuff is for links!*/
 a:link{
-color:white;
-text-decoration: none;
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 a:visited{
   color:lime;
@@ -114,34 +107,37 @@ a:visited{
 
 /*this section is the first list of songs with the numbers*/
 ol{
-  line-height: 1.2;
-  margin:20px 20px 20px 20px;}
-
-  .wrapper{
-    font-family: 'Baloo';
-    font-size:40px;
-    color:white;
-    text-align: Left;
-    box-sizing: border-box;
-
-
-
+  line-height: 1.5;
+  margin:20px 20px 20px 20px;
+}
+li{
+  padding-bottom:10px;
+}
+.wrapper{
+  font-family: 'Baloo', Helvetica,sans-serif;
+  color:white;
+  text-align: Left;
+  /* box-sizing: border-box;
   position: relative;
   width: auto;
   height: auto;
   left: auto;
-  top: auto;
-
+  top: auto; */
   background: #6232B0;
-  border-radius: 30px;}
+  border-radius: 30px;
+  padding:10px;
+  margin-bottom: 40px;
+}
 
     /*this section is the bottom list of songs*/
-  h2{
-    font-family:'Freckle Face';
-    font-size:30px;
-    color:white}
-
-    p{ font-family:'Baloo';
+p{
+    font-family:'Baloo';
     text-align:left;
-  font-size:30px;
-  color:#411688;
+    font-size:1.2em;
+    color:#411688;
+  }
+
+/* NOTE Moved media query to the bottom */
+  @media only screen and (min-width: 700px) {
+
+  }

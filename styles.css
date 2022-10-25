@@ -37,6 +37,7 @@ img{
   width:100%;
   /* align:center; */
   border-radius: 15px;
+
 }
 
 
@@ -64,7 +65,7 @@ img{
 .spider {
   margin-right:0;
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   right:20px;
   height:120px
 }
@@ -77,6 +78,9 @@ h1{
   text-align: center;
   background: #411688;
   border-radius: 15px;
+  width:65%;
+  margin-right:auto;
+  margin-left:auto;
   padding: 10px;
 }
 
@@ -87,6 +91,9 @@ h2{
   text-align: center;
   background: #411688;
   border-radius: 15px;
+  width:65%;
+  margin-right:auto;
+  margin-left:auto;
   padding:10px;
 }
 
@@ -116,7 +123,7 @@ li{
   font-family: 'Baloo', Helvetica,sans-serif;
   color:white;
   text-align: Left;
-  font-size: 20px;
+  font-size: 90%;
   /* box-sizing: border-box;
   position: relative;
   width: auto;
@@ -127,13 +134,20 @@ li{
   border-radius: 30px;
   padding:10px;
   margin-bottom: 40px;
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+iframe{
+  width:50
 }
 
     /*this section is the bottom list of songs*/
 p{
     font-family:'Baloo';
     text-align:left;
-    font-size:1.2em;
+    font-size:90%;
     color:#411688;
   }
 

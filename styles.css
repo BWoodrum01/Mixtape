@@ -2,6 +2,8 @@
 
 html{
   scroll-behavior: smooth;
+  width: 800px;
+  
 }
 
 .center{
@@ -13,7 +15,7 @@ html{
 }
 
 body{
-  margin:0;
+  margin:150px;
   padding:0;
   box-sizing: border-box;
   font-size: 18px;
@@ -57,7 +59,7 @@ img{
   position: fixed;
   right:64px;
   top:-50px;
-  height:97vh;
+  height:200vh;
   width:5px;
 }
 
@@ -104,7 +106,6 @@ a:visited{
   text-decoration: none;
 }
 
-
 /*this section is the first list of songs with the numbers*/
 ol{
   line-height: 1.5;
@@ -117,6 +118,7 @@ li{
   font-family: 'Baloo', Helvetica,sans-serif;
   color:white;
   text-align: Left;
+  font-size: 20px;
   /* box-sizing: border-box;
   position: relative;
   width: auto;
